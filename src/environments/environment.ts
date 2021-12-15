@@ -14,3 +14,20 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/plugins/zone-error';  // Included with Angular CLI.
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyD7J3CGsszihwfZE68AZ7M8cM33MMIfk8Q",
+  authDomain: "angular-directive-sprint.firebaseapp.com",
+  projectId: "angular-directive-sprint",
+  storageBucket: "angular-directive-sprint.appspot.com",
+  messagingSenderId: "346211052401",
+  appId: "1:346211052401:web:f41380c4e336acde1464d0"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);

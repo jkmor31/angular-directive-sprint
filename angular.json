@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "angular-directive-sprint:build:production",
+            "firebaseProject": "angular-directive-sprint",
+            "firebaseHostingSite": "angular-directive-sprint"
+          }
         }
       }
     }

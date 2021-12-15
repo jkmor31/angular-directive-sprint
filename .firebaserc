@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-directive-sprint": {
+      "hosting": {
+        "angular-directive-sprint": [
+          "angular-directive-sprint"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-directive-sprint"
+  }
+}
