@@ -1,10 +1,11 @@
 <p>fonts works!</p>
 
-<textarea placeholder="Type text here"></textarea><br>
-<!--
-<select>
-    <option *ngFor="let font of fontList">{{font}}</option>
-</select>
-<button (click)="changeFont()">Change!</button>
--->
-<button *ngFor="let font of fontList" (click)="changeFont()">{{font}}</button>
+<form #fontForm="ngForm" (ngSubmit)="onSubmit(fontForm.value)">
+    <textarea placeholder="Type text here" name="textbox" ngModel></textarea><br>
+    <select name="select" ngModel>
+        <option *ngFor="let font of fontList">{{font}}</option>
+    </select>
+    <button type="submit" >Change!</button>
+</form>
+
+<div [style.fontFamily]="selectedFont">{{text}}</div>

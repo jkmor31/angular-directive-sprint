@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+    text-align: center;
+	line-height: 1.88889;
+	
+    min-height: 100vh;
+    background: url(https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)  top left; 
+	background-size: 100%;
+	margin-bottom: 5vh; 
+
+	}
+.page-wrapper { 
+    background-color: rgb(216, 216, 216);
+    border: 1px solid black;
+    padding: 50px;
+    margin: 50px 70px; 
+    position: relative;
+    min-height: 50vh;
+    }
+    

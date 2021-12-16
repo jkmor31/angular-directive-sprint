@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Creepster&family=Lancelot&family=Lora:wght@500&family=Meow+Script&family=Monoton&family=Montserrat+Subrayada&family=Oswald&display=swap');
-/* {
-    font-family: 'Caesar Dressing', cursive;
-    font-family: 'Creepster', cursive;
-    font-family: 'Lancelot', cursive;
-    font-family: 'Lora', serif;
-    font-family: 'Meow Script', cursive;
-    font-family: 'Monoton', cursive;
-    font-family: 'Montserrat Subrayada', sans-serif;
-    font-family: 'Oswald', sans-serif;
-} */
+
+p { 
+	margin-top: 0; 
+
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #7D775C;
+	}
+
+
+header {
+	padding-top: 20px;
+	height: 87px;
+}
