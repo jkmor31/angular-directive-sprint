@@ -1,3 +1,10 @@
+#infoContainer div {
+    margin-bottom: 50px;
+    text-align: justify;
+}
+#infoContainer h2 {
+    text-align: center;
+}
 #caesar {
     font-family: 'Caesar Dressing', cursive;
 }
@@ -16,6 +23,7 @@
 
 #meow {
     font-family: 'Meow Script', cursive;
+    line-height: 24px;
     font-size: 22px;
 }
 

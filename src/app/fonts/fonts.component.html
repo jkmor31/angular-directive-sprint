@@ -1,4 +1,3 @@
-<p>fonts works!</p>
 
 <form #fontForm="ngForm" (ngSubmit)="onSubmit(fontForm.value)">
     <textarea placeholder="Type text here" name="textbox" ngModel></textarea><br>
@@ -8,4 +7,4 @@
     <button type="submit" >Change!</button>
 </form>
 
-<div [style.fontFamily]="selectedFont">{{text}}</div>
+<div [style.fontFamily]="selectedFont" id="fontText">{{text}}</div>

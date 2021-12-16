@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Creepster&family=Lancelot&family=Lora:wght@500&family=Meow+Script&family=Monoton&family=Montserrat+Subrayada&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caesar+Dressing&family=Creepster&family=Lancelot&family=Lora:wght@500&family=Meow+Script&family=Monoton&family=Montserrat+Subrayada&family=Oswald&display=swap');
 
 p { 
 	margin-top: 0; 
 
 	}
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+}
 h3 { 
 	font: italic normal 1.4em georgia, sans-serif;
 	letter-spacing: 1px; 
@@ -15,4 +19,26 @@ h3 {
 header {
 	padding-top: 20px;
 	height: 87px;
+}
+
+.button-group {
+	color: blue;
+}
+
+a {
+	display: inline-block;
+    text-decoration: none;
+    color: white;
+	background-color: rgb(30, 74, 186);
+	padding: 1rem;
+	border-radius: 5px;
+    margin: 20px -5px;
+}
+
+a:hover {
+	background-color: darkblue;
+}
+
+a:active {
+	background-color: rgba(30, 74, 186, 0.551);
 }

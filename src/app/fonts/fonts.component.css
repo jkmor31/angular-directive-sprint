@@ -1,0 +1,27 @@
+#fontText {
+    margin: 20px;
+    font-size: 20px;
+}
+button {
+    margin: 10px;
+    background-color: rgb(30, 74, 186);
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    padding: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgba(30, 74, 186, 0.755);
+}
+
+textarea {
+    background-color: rgba(60, 117, 155, 0.15);
+    min-width: 500px;
+    min-height: 100px;
+    margin-top: 20px;
+   
+}
+select {
+    background-color: rgba(60, 117, 155, 0.15);
+}
